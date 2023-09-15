@@ -1,84 +1,45 @@
-<!DOCTYPE html> 
-<html>
-	<head>
-		<title>Target: Expect More. Pay Less.</title>
-		<link rel="stylesheet" href="target.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<body>
-			<nav>
-				<h4>My Store | Closes At 10pm Gilbert Val Vista</h4>
-				<ul>	
-					<li>Registry</li>
-					<li>Weekly Ad</li>
-					<li>RedCard</li>
-					<li>Target Circle</li>
-					<li>Find Stores</li>
-				</ul>
-			</nav>
-			<section> 
-				<div> 
-					<img class="img" src="https://dwglogo.com/wp-content/uploads/2020/05/Target_logo_1800x1277-1536x1090.png" width="110px" height="80px">
-					<button class="categories">Categories</button>
-					<button class="deals">Deals</button>
-					<button class="what">What's New</button>
-					<button class="pickup">Pickup & Delivery</button>
-					<label for="gsearch"></label>
-						<input type="search"  placeholder="Search" id="gsearch" name="gsearch">
-					<button class="sign">Sign in</button>
-					<img class="cart" src="https://cdn1.iconfinder.com/data/icons/social-productivity-line-art-4/128/shopping-cart1-512.png" width="24px" height="24px">
-				</div>
-			</section>
-			<hr>
-			<div class="promo1"
-			</div>
-			<img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6457/6457424cv15d.jpg" width="680px" height="452px" >
-			<img class="cup" src="https://i.pinimg.com/originals/86/2f/0e/862f0edda63754bc587819570fa1a5ae.png" width="250px" height="240px" >
-			<img class="room" src="https://i.pinimg.com/originals/81/ec/4a/81ec4aae580f8b9994e5692771fa63aa.png" width="245px" height="215px" >
-			<img class="couch" src="https://i.pinimg.com/originals/ba/54/8a/ba548a278ab429b97b3a293f88eaecf9.png" width="255px" height="451px">
-			<h2>Fresh start!</h2>
-			<h5>Everything you need to focus on your wellbeing.</h5>
-			<img class="tupp" src="https://naotw-pd.s3.amazonaws.com/tupperware_2_0.jpg" width="370px" height="200px">
-			<p class="e">Up to <span>30%</span>off</p>
-			<img class="work" src="https://www.homelane.com/blog/wp-content/uploads/2019/04/shutterstock_418704583.jpg" width="360px" height="200px">
-			<img class="pill" src="https://i.pinimg.com/originals/97/db/6f/97db6fa91e3c976a40e3a0a679af949a.jpg" width="345px" height="201px" >
-			<h6 class="bogo">BOGO</h6>
-			<p class="bogo1">30%</p>
-			<p class="bogo2">off</p>
-			<p class="bogo3">select vitamins & nutrition items*</p>
-			<div class="clearance">
-			</div>
-			<h2 class="the">The</h2>
-			<h2 class="clearance1">Clearance</h2>
-			<h2 class="run">Run</h2>
-			<img class="black" src="https://fashionforgood.com/wp-content/uploads/2018/03/Target_logo_black.png" width="95px" height="95px">
-			<h2 class="fifty">Up to</h2>
-			<h2 class="fifty1">50</h2>
-			<h2 class="fifty2">%</h2>
-			<h2 class="fifty3">off</h2>
-			<p class="toys">clothing, shoes, toys & more*</p>	
-			<p class="ex">Exclusions apply. Clearance quantities limited.</p>
-			<div class="featured">
-			<h4 class="featured1">Featured Categories</h4>
-			<p class="featured2">Shop all</p>
-			</div>
-			<button class="circle1">Valentines Day</button>
-			<button class="circle2">Women's</button>
-			<button class="circle3">Men's</button>
-			<button class="circle4">Kids'</button>
-			<button class="circle5">Baby</button>
-			<button class="circle6">Home</button>
-			<button class="circle7">Storage & Organization</button>
-			<button class="circle8">Patio & Garden</button>
-			<button class="circle9">Kitchen & Dining</button>
-			<button class="circle10">Beauty</button>
-			<button class="circle11">Video Games</button>
-			<button class="circle12">Toys</button>
-			<button class="circle13">Sports & Outdoors</button>
-			<button class="circle14">Apple</button>
-			<button class="circle15">Grocery</button>
-			<button class="circle16">Household Essentials</button>
-			<button class="circle17">Pets</button>
-			<button class="circle18">Clearance</button>
-			</body> 
-	</head>
-</html>
+/* Add your existing CSS styles here */
+
+/* Apply styles for small screens (like iPhones) */
+@media screen and (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+
+    nav h4 {
+        text-align: center;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    section {
+        text-align: center;
+    }
+
+    .img {
+        display: block;
+        margin: 0 auto;
+        max-width: 80%; /* Adjust this value as needed */
+    }
+
+    button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #gsearch {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .cart {
+        float: right;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
